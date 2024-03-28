@@ -55,6 +55,19 @@ public class ProductsPage {
     @FindBy(css = "a[href='/brand_products/Madame']")
     private WebElement madameBrand;
 
+    @FindBy(css = "a[href='#Women']")
+    private WebElement womanCategory;
+
+    @FindBy(css = "[href='/category_products/1']")
+    private WebElement dressCategory;
+
+    @FindBy(css = "[href='/category_products/2']")
+    private WebElement topsCategory;
+
+    @FindBy(css = "[href='/category_products/7']")
+    private WebElement sareCategory;
+
+
     @FindBy(css = "a[class='btn btn-default add-to-cart']")
     List<WebElement> addButtons;
 
